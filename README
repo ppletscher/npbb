@@ -1,0 +1,33 @@
+About
+=====
+
+NPBB is a Nonparameteric Bayesian Biclustering Model, inference
+is performed by collapsed Gibbs sampling. We support Gaussian
+and Bernoulli random variables for the matrix elements.
+
+The best way to get started is by running the examples under demos/
+
+References
+==========
+
+The Bernoulli case is the same as discussed in
+Kemp, C., Tenenbaum, J. B., Griffiths, T. L., Yamada, T. & Ueda, N. (2006),
+Learning systems of concepts with an infinite relational model,
+Proceedings of the 21st National Conference on Artificial Intelligence.
+
+
+The Gaussian case is discussed in:
+Edward Meeds and Sam Roweis,
+Nonparametric Bayesian Biclustering,
+UTML-TR-2007-001, Technical Report, University of Toronto, 2007.
+
+
+Coypright and Authorship
+========================
+
+The code in NPBBGibbs is released under the GNU license, some of the
+code in tools is developed by a third-party.
+
+Patrick Pletscher
+Machine Learning Group
+ETH Zurich
